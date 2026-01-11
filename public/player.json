@@ -1,0 +1,134 @@
+[
+  {
+    "id": 1,
+    "name": "Virat Kohli",
+    "image": "https://example.com/images/virat-kohli.png",
+    "nationality": "India",
+    "rating": 95,
+    "playerType": "Batter",
+    "battingHand": "Right",
+    "bowlingHand": "None",
+    "price": 11.5
+  },
+  {
+    "id": 2,
+    "name": "Rohit Sharma",
+    "image": "https://example.com/images/rohit-sharma.png",
+    "nationality": "India",
+    "rating": 92,
+    "playerType": "Batter",
+    "battingHand": "Right",
+    "bowlingHand": "None",
+    "price": 11.0
+  },
+  {
+    "id": 3,
+    "name": "Jasprit Bumrah",
+    "image": "https://example.com/images/jasprit-bumrah.png",
+    "nationality": "India",
+    "rating": 94,
+    "playerType": "Bowler",
+    "battingHand": "Right",
+    "bowlingHand": "Right",
+    "price": 10.5
+  },
+  {
+    "id": 4,
+    "name": "Hardik Pandya",
+    "image": "https://example.com/images/hardik-pandya.png",
+    "nationality": "India",
+    "rating": 90,
+    "playerType": "All-Rounder",
+    "battingHand": "Right",
+    "bowlingHand": "Right",
+    "price": 10.0
+  },
+  {
+    "id": 5,
+    "name": "Ravindra Jadeja",
+    "image": "https://example.com/images/ravindra-jadeja.png",
+    "nationality": "India",
+    "rating": 91,
+    "playerType": "All-Rounder",
+    "battingHand": "Left",
+    "bowlingHand": "Left",
+    "price": 10.5
+  },
+  {
+    "id": 6,
+    "name": "MS Dhoni",
+    "image": "https://example.com/images/ms-dhoni.png",
+    "nationality": "India",
+    "rating": 88,
+    "playerType": "Keeper-Batsman",
+    "battingHand": "Right",
+    "bowlingHand": "None",
+    "price": 9.5
+  },
+  {
+    "id": 7,
+    "name": "Jos Buttler",
+    "image": "https://example.com/images/jos-buttler.png",
+    "nationality": "England",
+    "rating": 93,
+    "playerType": "Keeper-Batsman",
+    "battingHand": "Right",
+    "bowlingHand": "None",
+    "price": 11.0
+  },
+  {
+    "id": 8,
+    "name": "Ben Stokes",
+    "image": "https://example.com/images/ben-stokes.png",
+    "nationality": "England",
+    "rating": 91,
+    "playerType": "All-Rounder",
+    "battingHand": "Left",
+    "bowlingHand": "Right",
+    "price": 10.5
+  },
+  {
+    "id": 9,
+    "name": "Glenn Maxwell",
+    "image": "https://example.com/images/glenn-maxwell.png",
+    "nationality": "Australia",
+    "rating": 89,
+    "playerType": "All-Rounder",
+    "battingHand": "Right",
+    "bowlingHand": "Right",
+    "price": 9.5
+  },
+  {
+    "id": 10,
+    "name": "Rashid Khan",
+    "image": "https://example.com/images/rashid-khan.png",
+    "nationality": "Afghanistan",
+    "rating": 93,
+    "playerType": "Bowler",
+    "battingHand": "Right",
+    "bowlingHand": "Right",
+    "price": 10.0
+  },
+  {
+    "id": 11,
+    "name": "David Warner",
+    "image": "https://example.com/images/david-warner.png",
+    "nationality": "Australia",
+    "rating": 90,
+    "playerType": "Batter",
+    "battingHand": "Left",
+    "bowlingHand": "None",
+    "price": 10.5
+  },
+  {
+    "id": 12,
+    "name": "Kagiso Rabada",
+    "image": "https://example.com/images/kagiso-rabada.png",
+    "nationality": "South Africa",
+    "rating": 92,
+    "playerType": "Bowler",
+    "battingHand": "Right",
+    "bowlingHand": "Right",
+    "price": 10.0
+  }
+]
