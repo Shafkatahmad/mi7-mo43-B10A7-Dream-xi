@@ -2,12 +2,11 @@
   {
     "id": 1,
     "name": "Virat Kohli",
-    "image": "https://example.com/images/virat-kohli.png",
+    "image": "https://i.ibb.co.com/nq57Hv10/ponting.webp",
     "nationality": "India",
     "rating": 95,
     "playerType": "Batter",
     "battingHand": "Right",
-    "bowlingHand": "None",
     "price": 11.5
   },
   {
@@ -18,7 +17,6 @@
     "rating": 92,
     "playerType": "Batter",
     "battingHand": "Right",
-    "bowlingHand": "None",
     "price": 11.0
   },
   {
@@ -29,7 +27,6 @@
     "rating": 94,
     "playerType": "Bowler",
     "battingHand": "Right",
-    "bowlingHand": "Right",
     "price": 10.5
   },
   {
@@ -40,7 +37,6 @@
     "rating": 90,
     "playerType": "All-Rounder",
     "battingHand": "Right",
-    "bowlingHand": "Right",
     "price": 10.0
   },
   {
@@ -51,7 +47,6 @@
     "rating": 91,
     "playerType": "All-Rounder",
     "battingHand": "Left",
-    "bowlingHand": "Left",
     "price": 10.5
   },
   {
@@ -62,7 +57,6 @@
     "rating": 88,
     "playerType": "Keeper-Batsman",
     "battingHand": "Right",
-    "bowlingHand": "None",
     "price": 9.5
   },
   {
@@ -73,7 +67,6 @@
     "rating": 93,
     "playerType": "Keeper-Batsman",
     "battingHand": "Right",
-    "bowlingHand": "None",
     "price": 11.0
   },
   {
@@ -84,7 +77,6 @@
     "rating": 91,
     "playerType": "All-Rounder",
     "battingHand": "Left",
-    "bowlingHand": "Right",
     "price": 10.5
   },
   {
@@ -95,7 +87,6 @@
     "rating": 89,
     "playerType": "All-Rounder",
     "battingHand": "Right",
-    "bowlingHand": "Right",
     "price": 9.5
   },
   {
@@ -106,7 +97,6 @@
     "rating": 93,
     "playerType": "Bowler",
     "battingHand": "Right",
-    "bowlingHand": "Right",
     "price": 10.0
   },
   {
@@ -117,7 +107,6 @@
     "rating": 90,
     "playerType": "Batter",
     "battingHand": "Left",
-    "bowlingHand": "None",
     "price": 10.5
   },
   {
@@ -128,7 +117,6 @@
     "rating": 92,
     "playerType": "Bowler",
     "battingHand": "Right",
-    "bowlingHand": "Right",
     "price": 10.0
   }
 ]

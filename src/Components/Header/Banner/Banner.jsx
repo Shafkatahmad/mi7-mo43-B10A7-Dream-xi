@@ -3,7 +3,7 @@ import bgShadow from '../../../assets/bg-shadow.png'
 
 const Banner = () => {
   return (
-    <div className='max-w-330 mx-auto mt-6  bg-black rounded-2xl border-2 border-red-500'
+    <div className='max-w-330 mx-auto mt-6  bg-black rounded-2xl border-2 border-red-500 mb-20'
           style={{
             backgroundImage: `url(${bgShadow})`,
              backgroundRepeat: 'no-repeat',
