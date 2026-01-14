@@ -10,7 +10,7 @@ const AvailablePlayers = () => {
     .then(data => setPlayers(data));
   },[])
   return (
-    <div className="max-w-330 mx-auto">
+    <div className="max-w-330 mx-auto mb-50">
         <div className="flex justify-between mb-8 items-center">
           <h3 className="font-bold text-2xl">Available Players</h3>
           <div>
@@ -18,7 +18,7 @@ const AvailablePlayers = () => {
             <button className="px-5 py-3 rounded-r-xl">Selected</button>
           </div>
         </div>
-        <div className="grid grid-cols-3">
+        <div className="grid grid-cols-3 gap-6">
           {
           players.map(player => <AvailablePlayer
             key={player.id}

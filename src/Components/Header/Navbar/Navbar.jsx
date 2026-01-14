@@ -1,5 +1,6 @@
 import React from 'react';
 import logo from  '../../../assets/logo.png'
+import { CiBitcoin } from "react-icons/ci";
 
 const Navbar = () => {
   return (
@@ -12,7 +13,10 @@ const Navbar = () => {
           <li>Fixture</li>
           <li>Teams</li>
           <li>Schedules</li>
-          <button className='border-2 border-red-500 font-bold px-5 py-4'>0 Coin</button>
+          <div className='flex items-center gap-1'>
+            <button className='border-2 border-red-500 font-bold px-5 py-4'>0 Coin</button>
+            <CiBitcoin className='text-3xl font-bold'/>
+          </div>
         </ul>
     </div>
   );

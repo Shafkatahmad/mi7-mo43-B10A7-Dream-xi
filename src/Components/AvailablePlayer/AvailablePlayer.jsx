@@ -5,9 +5,9 @@ const AvailablePlayer = ({player}) => {
   const {image, name, nationality, playerType, rating, battingHand, price} = player
   console.log(player);
   return (
-    <div>
+    <div className="p-6 border border-[#131313]/10 rounded-2xl">
       <figure>
-        <img className="w-92 mb-6 rounded-2xl" src={image} alt="Photo of Ricky Ponting" />
+        <img className="w-92 h-60 object-cover mb-6 rounded-2xl" src={image} alt="Photo of Ricky Ponting" />
       </figure>
       <div className="flex items-center gap-4 mb-4">
         <CgProfile className="text-2xl" />
