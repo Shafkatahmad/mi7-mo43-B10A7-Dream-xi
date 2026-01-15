@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <div className='flex flex-col items-center gap-16 bg-[#06091A] text-white'>
       <figure>
-        <img className='w-35' src={logo} alt="" />
+        <img className='w-35 mt-60' src={logo} alt="" />
       </figure>
       <div className='max-w-330 mx-auto md:grid md:grid-cols-3 md:justify-between gap-35'>
         <div>
@@ -24,7 +24,7 @@ const Footer = () => {
           <h4>Subscribe</h4>
           <p>Subscribe to our newsletter for the latest updates.</p>
           <div>
-            <input className='w-100 rounded-xl border border-[#131313]/15 px-7 py-4' type="email" placeholder='Enter your email' />
+            <input className='w-full text-[#131313]/40 rounded-xl border border-[#131313]/15 px-7 py-4 bg-white' type="email" placeholder='Enter your email' />
           <button className='font-bold rounded-xl bg-orange-400 px-7 py-4'>Subscribe</button>
           </div>
         </div>

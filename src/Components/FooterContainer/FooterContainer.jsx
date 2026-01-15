@@ -3,7 +3,7 @@ import Footer from '../Footer/Footer';
 
 const FooterContainer = () => {
   return (
-    <div>
+    <div className='relative'>
       <Newsletter></Newsletter>
       <Footer></Footer>
     </div>
