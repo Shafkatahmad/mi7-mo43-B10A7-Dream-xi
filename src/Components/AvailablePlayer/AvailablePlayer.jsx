@@ -1,9 +1,9 @@
 import { CgProfile } from "react-icons/cg";
 import { FaFlag } from "react-icons/fa6";
 
-const AvailablePlayer = ({player}) => {
+const AvailablePlayer = ({player, handleChoosePlayer}) => {
   const {image, name, nationality, playerType, rating, battingHand, price} = player
-  console.log(player);
+  // console.log(player);
   return (
     <div className="p-6 border border-[#131313]/10 rounded-2xl">
       <figure>
@@ -30,7 +30,7 @@ const AvailablePlayer = ({player}) => {
       </div>
       <div className="flex items-center justify-between">
         <h4>Price: ${price}</h4>
-        <button className="px-4 py-2 border border-[#131313]/10 rounded-lg">Choose Player</button>
+        <button onClick={()=>handleChoosePlayer(player)} className="px-4 py-2 border border-[#131313]/10 rounded-lg">Choose Player</button>
       </div>
     </div>
   );
