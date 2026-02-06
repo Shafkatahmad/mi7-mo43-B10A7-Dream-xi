@@ -1,7 +1,7 @@
 import banner from '../../../assets/banner-main.png'
 import bgShadow from '../../../assets/bg-shadow.png'
 
-const Banner = () => {
+const Banner = ({handleCoin}) => {
   return (
     <div className='max-w-330 mx-auto mt-6  bg-black rounded-2xl border-2 border-red-500 mb-20'
           style={{
@@ -18,7 +18,7 @@ const Banner = () => {
       <h3 className='mb-4 font-bold text-4xl'>Assemble Your Ultimate Dream 11 Cricket Team</h3>
       <p className='mb-6 text-white/70'>Beyond Boundaries Beyond Limits</p>
       <div className='p-2 border-2 border-[#E7FE29] rounded-2xl'>
-        <button className='font-bold text-sm text-black rounded-xl px-5 py-4 bg-[#E7FE29]'>Claim Free Credit</button>
+        <button className='font-bold text-sm text-black rounded-xl px-5 py-4 bg-[#E7FE29]' onClick={(()=>handleCoin(true))}>Claim Free Credit</button>
       </div>
       </div>
     </div>

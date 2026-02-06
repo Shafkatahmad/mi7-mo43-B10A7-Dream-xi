@@ -7,12 +7,30 @@ import Navbar from './Components/Header/Navbar/Navbar'
 import Players from './Components/Players/Players'
 
 function App() {
-  
+  const [coin, setCoin] = useState(false);
+
+  const handleCoin = addOrDelete => {
+    let newCoin = 0;
+    if(addOrDelete){
+      newCoin = coin + 2500;
+      setCoin(newCoin)
+    }
+    else if(!addOrDelete){
+      newCoin = coin - 2500;
+      setCoin(newCoin)
+    }
+  }
   return (
     <>
-      <Navbar></Navbar>
-      <Banner></Banner>
-      <Players></Players>
+      <Navbar
+        coin={coin}
+      ></Navbar>
+      <Banner
+        handleCoin={handleCoin}
+      ></Banner>
+      <Players
+        handleCoin={handleCoin}
+      ></Players>
       {/* <AvailablePlayers
         handleChoosePlayer={handleChoosePlayer}
       ></AvailablePlayers> */}

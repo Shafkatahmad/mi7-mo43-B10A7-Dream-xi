@@ -2,7 +2,7 @@ import React from 'react';
 import logo from  '../../../assets/logo.png'
 import { CiBitcoin } from "react-icons/ci";
 
-const Navbar = () => {
+const Navbar = ({coin}) => {
   return (
     <div className='flex justify-between max-w-330 mx-auto'>
       <figure>
@@ -14,7 +14,7 @@ const Navbar = () => {
           <li>Teams</li>
           <li>Schedules</li>
           <div className='flex items-center gap-1'>
-            <button className='border-2 border-red-500 font-bold px-5 py-4'>0 Coin</button>
+            <button className='border-2 border-red-500 font-bold px-5 py-4'>${coin} Coin</button>
             <CiBitcoin className='text-3xl font-bold'/>
           </div>
         </ul>

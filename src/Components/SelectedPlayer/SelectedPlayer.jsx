@@ -1,6 +1,6 @@
 import { RiDeleteBinLine } from "react-icons/ri";
 
-const SelectedPlayer = ({player, deleteChossenPlaer}) => {
+const SelectedPlayer = ({player, deleteChossenPlaer, handleCoin}) => {
   const {image, name, battingHand} = player;
   return (
     <div className="flex justify-between p-6 border border-[#131313]/10 rounded-2xl mb-6">
@@ -13,7 +13,9 @@ const SelectedPlayer = ({player, deleteChossenPlaer}) => {
           <p className="text-[#131313]/60">{battingHand}</p>
         </div>
         </div>
-        <RiDeleteBinLine className="text-2xl text-[#F14749]" onClick={()=> deleteChossenPlaer(player.id)} />
+        <RiDeleteBinLine className="text-2xl text-[#F14749]" onClick={()=> {
+          deleteChossenPlaer(player.id);
+          handleCoin(false)}} />
     </div>
   );
 };
