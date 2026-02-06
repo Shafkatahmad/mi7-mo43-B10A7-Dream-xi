@@ -1,13 +1,14 @@
 import SelectedPlayer from "../SelectedPlayer/SelectedPlayer";
 
 
-const SelectedPlayers = ({players}) => {
+const SelectedPlayers = ({players, deleteChossenPlaer}) => {
   console.log(players);
   return (
     <div>
       {
         players.map(player => <SelectedPlayer
             player={player}
+            deleteChossenPlaer={deleteChossenPlaer}
         ></SelectedPlayer>)
       }
       <div className="">
