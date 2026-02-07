@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import AvailablePlayers from '../AvailablePlayers/AvailablePlayers';
 import SelectedPlayers from '../SelectedPlayers/SelectedPlayers';
+import { toast } from 'react-toastify';
 
 const Players = ({handleCoin, coin}) => {
   const [players, setPlayers] = useState([]);
@@ -10,17 +11,24 @@ const Players = ({handleCoin, coin}) => {
     // console.log(player)
     if(players.includes(player)) {
       console.log('already exits')
+      toast.error(`${player.name} is already chossen`)
       // handleCoin(false, player.price)
     }
     else if(coin < player.price) {
       console.log('claim free credit')
+      toast.warn("Not enough coins! Claim some free credit.");
     }
     else if(players.length >= 6) {
       console.log('cant take more than 6 players')
+      toast.error("Squad full! You can't take more than 6 players.");
     }
     else {
       setPlayers([...players, player]);
       handleCoin(true, player.price)
+
+      toast.success(`Congrats! ${player.name} has been added to your team.`, {
+        theme: "colored" // This will use the solid color style we discussed
+      });
     }
   }
 

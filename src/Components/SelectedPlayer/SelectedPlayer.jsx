@@ -1,4 +1,5 @@
 import { RiDeleteBinLine } from "react-icons/ri";
+import { toast } from 'react-toastify';
 
 const SelectedPlayer = ({player, deleteChossenPlaer, handleCoin}) => {
   const {image, name, battingHand} = player;
@@ -15,7 +16,9 @@ const SelectedPlayer = ({player, deleteChossenPlaer, handleCoin}) => {
         </div>
         <RiDeleteBinLine className="text-2xl text-[#F14749]" onClick={()=> {
           deleteChossenPlaer(player.id);
-          handleCoin(false, player.price)}} />
+          handleCoin(false, player.price);
+          toast.warn("Player removed");
+          }} />
     </div>
   );
 };

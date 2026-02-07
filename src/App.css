@@ -1,0 +1,18 @@
+/* The White Background */
+.Toastify__toast--success {
+  background: white !important;
+  color: #333 !important;
+  border: 1px solid #f0f0f0;
+}
+
+/* Force the Progress Bar to be Green and Visible */
+.Toastify__progress-bar--success {
+  background: #28a745 !important;
+  height: 4px; /* Makes it slightly thicker and easier to see */
+  /* opacity: 1 !important; */
+}
+
+/* Ensure the success icon is also green */
+.Toastify__toast-icon--success svg {
+  fill: #28a745 !important;
+}

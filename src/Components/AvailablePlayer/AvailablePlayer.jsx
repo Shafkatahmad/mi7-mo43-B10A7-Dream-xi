@@ -1,7 +1,7 @@
 import { CgProfile } from "react-icons/cg";
 import { FaFlag } from "react-icons/fa6";
 
-const AvailablePlayer = ({player, handleChoosePlayer, handleCoin}) => {
+const AvailablePlayer = ({player, handleChoosePlayer}) => {
   const {image, name, nationality, playerType, rating, battingHand, price} = player
   // console.log(player);
   return (

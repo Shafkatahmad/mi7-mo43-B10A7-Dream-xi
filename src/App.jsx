@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import './App.css'
+import { ToastContainer } from 'react-toastify';
 import AvailablePlayers from './Components/AvailablePlayers/AvailablePlayers'
 import FooterContainer from './Components/FooterContainer/FooterContainer'
 import Banner from './Components/Header/Banner/Banner'
@@ -38,6 +39,10 @@ function App() {
       ></AvailablePlayers> */}
       
       <FooterContainer></FooterContainer>
+
+      <ToastContainer
+       position="top-center"
+       theme="colored" />
     </>
   )
 }

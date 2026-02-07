@@ -1,16 +1,30 @@
-# React + Vite
+# 🏏 BPL Dream Team
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Live Link: https://friendly-begonia-f14627.netlify.app/
 
-Currently, two official plugins are available:
+## 📖 Description
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+**BPL Dream Team** is a React-based web application that allows users to build their ultimate Bangladesh Premier League (BPL) cricket team. Users can claim virtual coins, select players within a limited budget, manage a squad of up to six players, and receive real-time feedback through toast notifications in a modern, responsive interface.
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ Technologies Used
 
-## Expanding the ESLint configuration
+- React (Functional Components & Hooks)
+- Tailwind CSS
+- JavaScript (ES6+)
+- React Toastify
+- React Icons
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## ⭐ Key Features
+
+1. **Virtual Coin System**  
+   Users can claim free credits, spend coins to select players, and get refunded coins when players are removed.
+
+2. **Smart Player Selection Rules**  
+   Prevents duplicate player selection, enforces a maximum of six players per team, and blocks purchases when coins are insufficient.
+
+3. **Interactive & Responsive UI**  
+   Toggle between available and selected players with instant toast notifications and a clean, mobile-friendly design.
