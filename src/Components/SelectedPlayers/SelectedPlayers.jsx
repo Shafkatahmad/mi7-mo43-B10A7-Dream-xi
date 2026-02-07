@@ -1,7 +1,7 @@
 import SelectedPlayer from "../SelectedPlayer/SelectedPlayer";
 
 
-const SelectedPlayers = ({players, deleteChossenPlaer, handleCoin}) => {
+const SelectedPlayers = ({players, deleteChossenPlaer, handleCoin, handleToggle}) => {
   console.log(players);
   return (
     <div>
@@ -13,7 +13,7 @@ const SelectedPlayers = ({players, deleteChossenPlaer, handleCoin}) => {
         ></SelectedPlayer>)
       }
       <div className="">
-        <button className="font-bold bg-[#E7FE29] rounded-xl px-5 py-3">Add More Player</button>
+        <button className="font-bold bg-[#E7FE29] rounded-xl px-5 py-3" onClick={()=>handleToggle(true)}>Add More Player</button>
       </div>
     </div>
   );

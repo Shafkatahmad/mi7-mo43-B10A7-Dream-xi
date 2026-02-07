@@ -7,7 +7,7 @@
     "rating": 95,
     "playerType": "Batter",
     "battingHand": "Right",
-    "price": 11.5
+    "price": 11000
   },
   {
     "id": 2,
@@ -17,7 +17,7 @@
     "rating": 92,
     "playerType": "Batter",
     "battingHand": "Right",
-    "price": 11.0
+    "price": 10000
   },
   {
     "id": 3,
@@ -27,7 +27,7 @@
     "rating": 94,
     "playerType": "Bowler",
     "battingHand": "Right",
-    "price": 10.5
+    "price": 10000
   },
   {
     "id": 4,
@@ -37,7 +37,7 @@
     "rating": 90,
     "playerType": "Bowler",
     "battingHand": "Right",
-    "price": 10.0
+    "price": 10500
   },
   {
     "id": 5,
@@ -47,7 +47,7 @@
     "rating": 91,
     "playerType": "Bowler",
     "battingHand": "Left",
-    "price": 10.5
+    "price": 11000
   },
   {
     "id": 6,
@@ -57,6 +57,6 @@
     "rating": 88,
     "playerType": "Keeper-Batsman",
     "battingHand": "Right",
-    "price": 9.5
+    "price": 90500
   }
 ]

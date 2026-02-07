@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import AvailablePlayer from "../AvailablePlayer/AvailablePlayer";
 
-const AvailablePlayers = ({handleChoosePlayer}) => {
+const AvailablePlayers = ({handleChoosePlayer, handleCoin}) => {
   const [players, setPlayers] = useState([]);
 
   useEffect(() => {
@@ -24,6 +24,7 @@ const AvailablePlayers = ({handleChoosePlayer}) => {
             handleChoosePlayer={handleChoosePlayer}
             key={player.id}
             player={player}
+            handleCoin={handleCoin}
           ></AvailablePlayer>)
         }
         </div>

@@ -15,7 +15,7 @@ const SelectedPlayer = ({player, deleteChossenPlaer, handleCoin}) => {
         </div>
         <RiDeleteBinLine className="text-2xl text-[#F14749]" onClick={()=> {
           deleteChossenPlaer(player.id);
-          handleCoin(false)}} />
+          handleCoin(false, player.price)}} />
     </div>
   );
 };
